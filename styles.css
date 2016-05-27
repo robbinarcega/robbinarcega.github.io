@@ -11,7 +11,6 @@ body {
   color: #222;
   background: #f7f5f0;
 }
-/* Link Styles */
 
 a {
   text-decoration: none;
@@ -24,6 +23,11 @@ a:hover {
 h4 {
   font-size: 1.2em;
   color: #A87858;
+  /*line-height: 0.8em;*/
+}
+
+h3 {
+  margin: -5px 0 0;
 }
 
 /* Section Styles */
@@ -102,6 +106,8 @@ header .profile-image:hover {
   background-color: #222;
   color: #A8A058;
 }
+
+/* Content */
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -116,7 +122,16 @@ header .profile-image:hover {
   border-color: #A87858;
 }
 
-/* Content */
+.banner {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 80%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -141,6 +156,27 @@ ul.skills {
   width: 150px;
   height: 150px;
   border-radius: 100%;
+}
+
+ul.contact {
+  list-style: none;
+}
+
+ul.contact a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+ul.contact li.phone a {
+  background-image: url('images/phone.png');
+}
+
+ul.contact li.mail a {
+  background-image: url('images/mail.png');
 }
 
 /* Footer */
