@@ -23,11 +23,6 @@ a:hover {
 h4 {
   font-size: 1.2em;
   color: #A87858;
-  /*line-height: 0.8em;*/
-}
-
-h3 {
-  margin: -5px 0 0;
 }
 
 /* Section Styles */
@@ -178,6 +173,19 @@ ul.contact li.phone a {
 ul.contact li.mail a {
   background-image: url('images/mail.png');
 }
+
+.jobdesc h4 {
+  float:left;
+}
+
+.jobdesc h6 {
+  float:right;
+}
+
+.banner p {
+  clear:both;
+}
+
 
 /* Footer */
 
