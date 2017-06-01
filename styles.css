@@ -68,7 +68,7 @@ h4 {
 
 header {
   text-align: center;
-  background: url('images/teapaper.jpg') no-repeat top center ;
+  background-color: #fff;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
