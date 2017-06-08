@@ -17,15 +17,15 @@
         </ul>
     </div>
 
-    <header>
+    <!--<header>
       <img src="images/logo-large.png" alt="Cartoon happiness!" class="profile-image">
       <h1 class="tag name">Hi! My name is Robbin Arcega.</h1>
       <p class="tag location">This is my Goodreads redesign project.</p>
-    </header>
+    </header>-->
 
     <main class="flex">
       <div class="banner">
-        <h2>Designlab: Goodreads Redesign</h2>
+        <h1>Designlab: Goodreads Redesign</h1>
         <h4>BACKGROUND</h4>
           <p>GOODREADS: A “social cataloguing” website for books. Their mission: the right book in the right hands at the right time can change the world.</p>
           <p>Readers can share what they’re currently reading with millions of other bookish types around the world, track what they’re reading, get personalized recommendations, and see if a book is right for them based on community reviews.</p>
@@ -35,10 +35,124 @@
 
           <a href="https://docs.google.com/document/d/1Cj_u8kOsSbQS-3vsZ0c4W1BP4MK0-mCsh_AxnCOyAfY/edit?usp=sharing" target="_blank">Goodreads Redesign: Project Proposal & Brief</a>
 
-          <h4>BEFORE + AFTER</h4>
-          <p>The original app is on the top; alterations are on the bottom. However, this is just for a few of the screens of the app, and using the prototype is suggested.</p>
+          <h4>DESIGN PROCESS</h4>
+          <a href="#empathize">EMPATHIZE</a> | <a href="#define">DEFINE</a> | <a href="#ideate">IDEATE</a> | <a href="#prototype">PROTOTYPE</a>
 
-          <img src="images/goodreads-before.png" alt="Screenshots from the original app.">
+          <h4>BEFORE</h4>
+          <p>Here's a few screenshots from the original app.</p>
+
+          <div class="center"><img src="images/goodreads-before.png" alt="Screenshots from the original app."></div>
+
+          <h4>AFTER</H4>
+
+          <p>The finished project looks like this, though I highly recommend taking a look at the <a href="https://invis.io/G8ALOLV4Y" target="_blank">prototype</a>.</p>
+
+          <div class="center"><img src="images/goodreads-after.png"></div>
+
+          <a name="empathize"></a>
+
+          <h4>EMPATHIZE</h4>
+          <p>I personally use Goodreads a lot, which made this project very important to me -- and also really fun! Most of my research was done in bookstores and with librarians, bookshop employees, and people who just liked reading a lot.</p>
+          
+          <h5>METHODOLOGY</h5>
+          <ul>
+            <li>Contextual inquiry</li>
+            <li>Interviews</li>
+          </ul>
+
+          <h5>RESEARCH QUESTIONS</h5>
+          <ul>
+            <li>Learn about the person’s book reading habits. (i.e., Why do you read books? How often do you read? What are your go-to genres?)</li>
+            <li>How do readers find the next book to read?</li>
+            <li>How do they keep track of those books?</li>
+            <li>Have they ever used an app for this task?</li>
+            <li>If an app existed that allowed the reader to keep track of their books, what are some features that they’d need to see in order for them to consider using it?</li>
+          </ul>
+
+          <h5>FINDINGS</h5>
+          <ul>
+            <li>People interviewed at the bookshop often looked for new books to read at the shop itself</li>
+            <li>Recommendations were key for all participants; where they came from varied slightly (i.e., some preferred to hear from friends and family vs. a machine, while others were quite the opposite)</li>
+            <li>People who read one book at a time did not have a "to read" list handy; once they finished, they looked for a book to read next and would pick it up right away if possible</li>
+            <li>People who had a "to read" list used their cameras to take pictures of the book in the bookshop, or kept a memo on their phones to remind themselves to find it in the bookshop or library later</li>
+            <li>Some people were aware of Goodreads - however, of the people aware of the app, many mentioned that they wanted an ISBN scan feature. This is something that already exists in the app, which made it clear that it should be a highlighted feature in the redesign.</li>
+            <li>The interviewees that enjoyed the social aspect of Goodreads wished it could be more tailored - not everyone cared what Person A was reading, but they did care very much if Person A sent them a book recommendation personally</li>
+            <li>Only 2 of 5 of the interviewees liked the current "Updates Feed" that shows up as the home screen on the current app. The remaining 3 of 5 said that the updates feed was generally not useful.</li>
+          </ul>
+
+          <h5>UNDERSTANDING THE USERS</h5>
+          <p>Three personas were created based on the 11 preliminary interviews, with actual quotes from some of those readers:</p>
+
+          <div class="center"><img src="images/goodreads-persona.png"></div>
+
+          <a name="define"></a>
+
+          <h4>DEFINE</H4>
+          <p>With the preliminary research on readers, a competitive analysis was conducted to see what already existed. Goodreads definitely had the most features, but of the 5 who knew about the app, all of them mentioned that it was too complicated to use, which was a good thing to keep in mind during the design process.</p>
+
+          <div class="center"><img src="images/goodreads-ca.png"></div>
+
+          <p>Since this was a personal project and not one of the pre-defined briefs, we came up with imaginary business goals based on some of the secondary research we'd done on Goodreads' business model.</p>
+
+          <div class="center"><img src="images/goodreads-business.png" style="max-width: 500px"></div>
+
+          <p>Taking our personas into account, the prioritization process began. This project was more focused on the logic and user flows, and as such, we wanted to make sure that the MVP was done first with clear progression of user tasks.</p>
+
+          <a name="ideate"></a>
+
+          <h4>IDEATE</h4>
+          <p>This time around, I started with a write up. I'd found that this helped me organize better, especially when juxtaposed with the priorities and personas. The UI requirements can be found here: <a href="https://docs.google.com/document/d/1123GwJsSENNCFyhoX2ECIAazKeHtVN0ReIA3V81p5qY/edit?usp=sharing" target="_blank">Product UI Requirements</a>. From there, the site map was created.
+
+          <div class="center"><img src="images/goodreads-sitemap.png" style="max-width: 500px"></div>
+
+          <p>There were a plethora of user flows that could be construed based on the current app. A lead UX designer I had spoken to mentioned that it is better to create a beautiful cupcake than an ugly 3-layer cake. With this advice in mind, I wanted to stick to three user flows at maximum so that I could get the flow of the MVP just right.</p>
+
+          <div class="center"><img src="images/goodreads-userflows.png" style="max-width: 700px"></div>
+
+          <p>In the end, only the first two flows were studied, prototyped, and iterated upon. The social aspect of the app would be another set of user flows to tackle in the future.</p>
+
+          <h5>LOW FIDELITY WIREFRAMES</h5>
+          <p>Quick sketches were made to get critiqued by my classmates. Since this was a much more complex project, I wanted to get initial ideas out first, get feedback, and continue making a few more sketches with improvements before moving onto the mid fidelity wireframes.</p>
+
+          <div class="center"><img src="images/goodreads-wireframes.png"></div>
+
+          <a name="prototype"></a>
+
+          <h4>PROTOTYPE</h4>
+          <h5>MID FIDELITY WIREFRAMES</h5>
+          <p>These were built out after receiving feedback from the low fidelity sketches. They were plugged into InVision as a prototype, which was then tested by five participants. They were asked to sign up, search for Pride and Prejudice by Jane Austen, and add it to their "To Read" list.</p>
+
+          <p>The wireframes below are the fourth iteration. Earlier ones included iconography as tags for the search results, which were confusing to users; many thought they were buttons that could be tapped. On the book page, tags were used, but because it was black and white, most people also thought that the tags were buttons. The CTAs were not entirely clear. The following iteration took into account this feedback.</p>
+
+          <div class="center"><img src="images/goodreads-midwireframes.png"></div>
+
+          <p>Here were some of the initial results from the first prototype (not pictured):</p>
+
+          <div class="center"><img src="images/goodreads-results.png"></div>
+
+          <p>Before tackling the next iteration, more user testing was conducted through Usability Hub. A question test for the book page asked whether more or less information was necessary: more people wanted more information, but had varying opinions on what was the most important. As such, a card sort was done to figure out the information hierarchy of the book page.</p>
+
+          <p>To better understand the CTAs, questions were also asked about some of the buttons on the page to get a sense of what was expected. Most of these buttons were derived from the original Goodreads app, so it was important to learn what copy resonated with readers to get the results they wanted.</p>
+
+          <p>With this information, the high fidelity wireframe was created. The current prototype can be accessed <a href="https://invis.io/G8ALOLV4Y" target="_blank">here</a>.
+
+          <h4>DESIGN</h4>
+          <p>Visual design was not the main focus of this project. Per my mentor’s suggestion, I mimicked the current Goodreads branding by inspecting the elements from my browser and using the same colors and fonts.</p>
+
+          <p>While I would want to change the UI for this in the future, it was important to keep in mind that finishing this capstone, especially after all the research I had put into it, was the real goal.</p>
+
+          <h4>NEXT STEPS</h4>
+          <p>I had gotten a lot of excellent feedback from my friends, colleagues, classmates, random strangers in a bookstore, and my mentor on this project. Because it only focused on one flow, I was able to understand the gravity of ideation and how it contributes to making a design more logical and useable.</p>
+
+          <p>People who have used Goodreads before took a look at my redesign and felt that the would be more likely to use the app: they liked that the ISBN Search was prominent; they also liked that the search results could be filtered. So far, it seems like the redesign makes the app more user-friendly for the most basic features.</p>
+
+          <p>To continue, I would start the same process for other user flows from this initial design. The logic for the profile/account/notifications would be one instance.</p>
+
+          <p>It would also be interesting to look into incorporating the plentiful features from the Goodreads desktop site. Based on Google Play reviews, many complained that yes, it was hard to navigate, but many also complained that there weren’t enough of the site features available for them to want to use.</P>
+
+          <p>The questions are: How can we incorporate many features into the native app without affecting its usability? Which ones are really the most used? Which would pull the right levers for both the reader and the business?</p>
+
+          <p>In short: What is actually necessary to have in the app, and what are the nice-to-haves based on user research?</p> 
 
       </div> 
 

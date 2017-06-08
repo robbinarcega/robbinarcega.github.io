@@ -130,9 +130,8 @@ a.project {
   color: #536192;
 }
 
-img {
+div.center {
   text-align: center;
-  overflow: hidden;
 }
 
 ul.skills {
