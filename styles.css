@@ -130,6 +130,11 @@ a.project {
   color: #536192;
 }
 
+img {
+  text-align: center;
+  overflow: hidden;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
