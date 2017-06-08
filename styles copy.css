@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #F5E6E8;
+  background: #f7f5f0;
 }
 
 a {
@@ -22,7 +22,7 @@ a:hover {
 
 h4 {
   font-size: 1.2em;
-  color: #967AA1;
+  color: #A87858;
 }
 
 /* Section Styles */
@@ -31,7 +31,7 @@ h4 {
 
 .main-nav {
   width: 100%;
-  background: #2F3061;
+  background: #000;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -71,8 +71,8 @@ header {
   background-color: #fff;
   background-size: cover;
   overflow: hidden;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  border-bottom: 8px solid #000;
 }
 
 header {
@@ -82,20 +82,24 @@ header .profile-image {
   margin-top: 50px;
   width: 300px;
   height: 300px;
+  border-radius: 100%;
+  border: 7px solid black;
   transition: all .5s;
 }
-
+header .profile-image:hover {
+  transform: scale(1.1);
+}
 .tag {
-  background-color: #F5E6E8;
-  color: #2F3061;
+  background-color: #efefef;
+  color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #536192;
-  color: #fff;
+  background-color: #222;
+  color: #A8A058;
 }
 
 /* Content */
@@ -131,14 +135,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #AAA1C8;
+  background: #A85860;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #967AA1;
+  background: #A87858;
 }
 
 .image {
