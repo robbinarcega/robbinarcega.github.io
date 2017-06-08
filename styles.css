@@ -92,12 +92,12 @@ header .profile-image {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-  max-width: 500px;
+  width: 500px;
 } 
 .location {
   background-color: #536192;
   color: #fff;
-  max-width: 500px;
+  width: 500px;
 }
 
 /* Content */
